@@ -4,7 +4,7 @@ module.exports.config = {
  credits: '𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️',
  hasPermssion: 2,
  description: '[Ban/Unban/Del/Remove] List[Data] thread The bot has joined in.',
- commandCategory: 'Admin',
+ commandCategory: 'Admim',
  usages: '[page number/all]',
  cooldowns: 5
 };
@@ -117,7 +117,7 @@ module.exports.run = async function ({ api, event, args }) {
  break;
 
  default:
- /*
+ /
  var threadList = [];
  var data, msg = "";
  /////////
